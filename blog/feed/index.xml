@@ -10,7 +10,7 @@
     <title>My Blogofile Example</title>
     <link>http://www.example.com/blog</link>
     <description>Just a simple HTML5 blog</description>
-    <pubDate>Sat, 26 Apr 2014 21:16:03 GMT</pubDate>
+    <pubDate>Sat, 26 Apr 2014 21:18:00 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
@@ -43,7 +43,7 @@
 <h2 id="sec-1"><span class="section-number-2">1</span> Infarction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-There are two regions of an infarct. The <b>core</b> receives blood only from the occluded artery and so at risk for <b>lasting damage</b>, while the <b>penumbra</b> (borders the core) is perfused by other arteries and has a greater chance of <b>surviving the infarction</b> due to collateral blood flow.
+Testing&#x2026;. There are two regions of an infarct. The <b>core</b> receives blood only from the occluded artery and so at risk for <b>lasting damage</b>, while the <b>penumbra</b> (borders the core) is perfused by other arteries and has a greater chance of <b>surviving the infarction</b> due to collateral blood flow.
 </p>
 
 <p>

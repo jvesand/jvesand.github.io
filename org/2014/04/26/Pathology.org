@@ -1,12 +1,12 @@
 ***** Pathology                                                 :unclear:
 :PROPERTIES:
 :date:     2014/04/26 23:13:20
-:updated:  2014/04/26 23:15:51
+:updated:  2014/04/26 23:17:51
 :tangle:   no
 :END:
 ****** Infarction
 
-There are two regions of an infarct. The *core* receives blood only from the occluded artery and so at risk for *lasting damage*, while the *penumbra* (borders the core) is perfused by other arteries and has a greater chance of *surviving the infarction* due to collateral blood flow.
+Testing.... There are two regions of an infarct. The *core* receives blood only from the occluded artery and so at risk for *lasting damage*, while the *penumbra* (borders the core) is perfused by other arteries and has a greater chance of *surviving the infarction* due to collateral blood flow.
 
 Occlusion of multiple arteries or decrease in cerebral perfusion results in *watershed infarcts*. *Watershed areas* are areas at greatest risk of permanent injury are those at the border between major cerebral arteries.
 
