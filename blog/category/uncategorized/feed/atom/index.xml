@@ -7,7 +7,7 @@
   <title type="text">My Blogofile Example</title>
   <subtitle type="text">Just a simple HTML5 blog</subtitle>
 
-  <updated>2014-04-26T21:14:14Z</updated>
+  <updated>2014-04-26T21:16:03Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="http://www.example.com/blog" />
@@ -21,7 +21,7 @@
     <title type="html"><![CDATA[Pathology]]></title>
     <link rel="alternate" type="text/html" href="http://www.example.com/blog/2014/04/26/pathology" />
     <id>http://www.example.com/blog/2014/04/26/pathology</id>
-    <updated>2014-04-26T23:13:20Z</updated>
+    <updated>2014-04-26T23:15:51Z</updated>
     <published>2014-04-26T23:13:20Z</published>
     <category scheme="http://www.example.com/blog" term="uncategorized" />
     <summary type="html"><![CDATA[Pathology]]></summary>

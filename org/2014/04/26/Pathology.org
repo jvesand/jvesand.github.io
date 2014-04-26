@@ -1,7 +1,8 @@
-***** Pathology
+***** Pathology                                                 :unclear:
 :PROPERTIES:
 :date:     2014/04/26 23:13:20
-:updated:  2014/04/26 23:13:20
+:updated:  2014/04/26 23:15:51
+:tangle:   no
 :END:
 ****** Infarction
 
