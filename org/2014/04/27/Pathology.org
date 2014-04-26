@@ -3,7 +3,7 @@
 :tangle:   no
 :categories: test, test2
 :date:     2014/04/27 00:34:49
-:updated:  2014/04/27 01:40:05
+:updated:  2014/04/27 01:58:46
 :END:
 ****** Infarction
 :PROPERTIES:
@@ -11,6 +11,29 @@
 :END:
 
 There are two regions of an infarct. The *core* receives blood only from the occluded artery and so at risk for *lasting damage*, while the *penumbra* (borders the core) is perfused by other arteries and has a greater chance of *surviving the infarction* due to collateral blood flow.
+
+This is python:
+#+BEGIN_SRC python
+print "testing to see if this works"
+#+END_SRC
+
+This is elisp:
+#+BEGIN_SRC emacs-lisp
+(defun lawlist-toggle-block-visibility ()
+"For this function to work, the cursor must be on the same line as the regexp."
+(interactive)
+(if
+    (save-excursion
+      (beginning-of-line 1)
+      (looking-at ;; for individual footnotes, remove .* and put manual func
+       ".*\\[fn::\\|^\\#\\+BEGIN_HTML.*$\\|^[ \t]*:PROPERTIES:[ \t]*$"))
+    (lawlist-org-flag (not (get-char-property (match-end 0) 'invisible)))
+  (message "Sorry, you are not on a line containing the beginning regexp.")))
+#+END_SRC
+
+#+BEGIN_HTML
+<button onclick="alert('you are!');">I feel lucky!</button>
+#+END_HTML
 
 Occlusion of multiple arteries or decrease in cerebral perfusion results in *watershed infarcts*. *Watershed areas* are areas at greatest risk of permanent injury are those at the border between major cerebral arteries.
 

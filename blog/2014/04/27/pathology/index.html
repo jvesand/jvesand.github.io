@@ -97,6 +97,35 @@ There are two regions of an infarct. The <b>core</b> receives blood only from th
 </p>
 
 <p>
+This is python:
+</p>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #859900; font-weight: bold;">print</span> <span style="color: #2aa198;">"testing to see if this works"</span>
+</pre>
+</div>
+
+<p>
+This is elisp:
+</p>
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(<span style="color: #859900; font-weight: bold;">defun</span> <span style="color: #268bd2;">lawlist-toggle-block-visibility</span> ()
+<span style="color: #2aa198;">"For this function to work, the cursor must be on the same line as the regexp."</span>
+(interactive)
+(<span style="color: #859900; font-weight: bold;">if</span>
+    (<span style="color: #859900; font-weight: bold;">save-excursion</span>
+      (beginning-of-line 1)
+      (looking-at <span style="color: #9a5662;">;; </span><span style="color: #9a5662;">for individual footnotes, remove .* and put manual func</span>
+       <span style="color: #2aa198;">".*\\[fn::</span><span style="color: #859900; font-weight: bold;">\\</span><span style="color: #b58900; font-weight: bold;">|</span><span style="color: #2aa198;">^\\#\\+BEGIN_HTML.*$</span><span style="color: #859900; font-weight: bold;">\\</span><span style="color: #b58900; font-weight: bold;">|</span><span style="color: #2aa198;">^[ \t]*:PROPERTIES:[ \t]*$"</span>))
+    (lawlist-org-flag (not (get-char-property (match-end 0) 'invisible)))
+  (message <span style="color: #2aa198;">"Sorry, you are not on a line containing the beginning regexp."</span>)))
+</pre>
+</div>
+
+<button onclick="alert('you are!');">I feel lucky!</button>
+
+<p>
 Occlusion of multiple arteries or decrease in cerebral perfusion results in <b>watershed infarcts</b>. <b>Watershed areas</b> are areas at greatest risk of permanent injury are those at the border between major cerebral arteries.
 </p>
 
